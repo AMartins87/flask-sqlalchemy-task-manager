@@ -26,5 +26,5 @@ class Task(db.Model):
         return "#{0} - Task: {1} | Urgent: {2}".format(
             self.id, self.task_name, self.is_urgent
         )
-        # alternarive you could use f strings
+        # alternative you could use f strings
         # return f"#{self.id} - Task:{self.task_name} | Urgent:{self.is_urgent}"
